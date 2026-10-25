@@ -1,0 +1,29 @@
+{
+  "name": "dsh-plugin-avatar",
+  "version": "0.1.0",
+  "description": "在 DeepSeek Harness 的对话里显示双方头像：助手头像可双击更换图片与大小",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "avatar"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js"
+  },
+  "dsh": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/client.js",
+    "lib/index.js",
+    "README.md"
+  ]
+}
