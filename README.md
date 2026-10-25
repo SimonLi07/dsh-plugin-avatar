@@ -50,3 +50,7 @@ DSH 的消息节点插槽（`conversation.chat.node`）是按 key 注册的，�
 - 只在桌面端（Electron / web 表面）验证过
 - 每帧扫描是一次全文档查询，消息很多时有轻微开销
 - 头像图片以 data URI 内嵌，默认 192 px，替换图片后大小取决于所选文件
+
+## 仓库
+
+https://github.com/SimonLi07/dsh-plugin-avatar
